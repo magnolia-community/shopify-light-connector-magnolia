@@ -2,11 +2,14 @@
 
 This project demonstrates how to connect to a 3rd party system (Shopify) from Magnolia using configuration only, no code. It makes use of the [REST Client](https://docs.magnolia-cms.com/product-docs/6.2/Modules/List-of-modules/REST-Client-module.html) feature.
 
-Note: Several features require Magnolia DXCore.
-
 The `shopify-connector` directory is a light module that you can use in your project.
 
 The `shopify-connector-demo` directory is a light module demonstrating how to use it. 
+
+
+Note: Several features require Magnolia DXCore.
+
+Tested on Magnolia 6.2.19 (Expected to work on all 6.2 versions)
 
 ![Usage in pages aapp](/shopify-connector-demo/_dev/README-shopify-connector-1.png "Pages app")
 
