@@ -1,0 +1,3 @@
+title: Tour Products
+renderType: freemarker
+templateScript: /shopify-connector-demo/templates/components/tourProducts.ftl

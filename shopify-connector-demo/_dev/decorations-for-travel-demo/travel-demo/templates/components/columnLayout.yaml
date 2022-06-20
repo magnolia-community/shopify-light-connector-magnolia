@@ -1,0 +1,8 @@
+areas:
+  column1: &column1
+    availableComponents:
+      product:
+        id: shopify-connector-demo:components/product
+  column2: *column1
+  column3: *column1
+  column4: *column1

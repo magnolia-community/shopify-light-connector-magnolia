@@ -1,0 +1,114 @@
+baseUrl: https://magboats.myshopify.com/api/2019-07/graphql
+
+cacheConfiguration:
+  expireIn: 60
+
+restCalls:
+
+  products:
+    path: ''
+    method: post
+    entityClass: com.fasterxml.jackson.databind.JsonNode 
+    headers:
+      X-Shopify-Storefront-Access-Token: bdc1e56d3a85aa6606cb303ccfd94343
+      Content-Type: application/graphql
+      Accept: application/json
+    body: '
+            {
+              products(first: 10) {
+                edges {
+                  node {
+                    id,
+                    handle,
+                    title,
+                    description,
+                    updatedAt,
+                    images(first: 1){
+                        edges{
+                            node{
+                                id
+                                originalSrc
+                                altText
+                            }
+                        }
+                    },
+                    priceRange {
+                      minVariantPrice {
+                        amount,
+                        currencyCode
+                      }
+                    }
+                  }
+                }
+                pageInfo {
+                    hasNextPage
+                }
+              }
+            }
+          '
+
+  product:
+    path: ''
+    method: post
+    entityClass: com.fasterxml.jackson.databind.JsonNode 
+    headers:
+      X-Shopify-Storefront-Access-Token: bdc1e56d3a85aa6606cb303ccfd94343
+      Content-Type: application/graphql
+      Accept: application/json
+    body: '
+            {
+              productByHandle(handle: "{id}") {
+                id,
+                handle,
+                title,
+                description,
+                descriptionHtml,
+                updatedAt,
+                images(first: 1){
+                  edges{
+                      node{
+                          id
+                          originalSrc
+                          altText
+                      }
+                  }
+                },
+                priceRange {
+                  minVariantPrice {
+                    amount,
+                    currencyCode
+                  }
+                }
+              }
+            }
+          '
+
+  periscope:
+    path: ''
+    method: post
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    headers:
+      X-Shopify-Storefront-Access-Token: bdc1e56d3a85aa6606cb303ccfd94343
+      Content-Type: application/graphql
+      Accept: application/json
+    body: '
+            {
+              products(first: 5, query: "title:{query}*") {
+                edges {
+                  node {
+                    id,
+                    title,
+                    description,
+                    updatedAt,
+                    images(first: 1) {
+                      edges {
+                        node {
+                          originalSrc
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          '

@@ -1,0 +1,4 @@
+title: 'Shopify: Product'
+renderType: freemarker
+templateScript: /shopify-connector-demo/templates/components/product.ftl
+dialog: shopify-connector-demo:components/product

@@ -1,0 +1,32 @@
+!content-type:tours2
+name: tours2
+label: Tours2
+
+#Optionally override any of the app configuration supplied by the content type.
+subApps:
+  detail:
+ 
+    label: Tour
+    form:
+      properties:
+        - name: description
+          rows: 5
+
+        - name: product
+          label: Product
+          $type: jcrMultiValueField
+
+          field:
+            $type: restComboBoxField
+            label: Select
+            datasource:
+              name: rest
+              $type: jsonDatasource
+              restClient: shopify
+              restCall: products
+              jsonPathExpressions:
+                # itemId: '$.id'
+                itemId: '$.handle'
+                items: '$.data.products.edges[*].node'
+                describeBy: '$.title'
+                preview: '$.images.edges[0].node.originalSrc'

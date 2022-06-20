@@ -1,0 +1,5 @@
+areas:
+  main:
+    availableComponents:
+      product:
+        id: shopify-connector-demo:components/product

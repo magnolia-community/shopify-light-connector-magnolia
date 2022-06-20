@@ -1,0 +1,26 @@
+label: Product
+
+form:
+
+  properties:
+
+    - name: title
+      $type: textField
+      label: Title
+
+    - name: product
+      label: Product
+      required: true
+      $type: restComboBoxField
+      
+      datasource:
+        name: rest
+        $type: jsonDatasource
+        restClient: shopify
+        restCall: products
+        jsonPathExpressions:
+          # itemId: '$.id'
+          itemId: '$.handle'
+          items: '$.data.products.edges[*].node'
+          describeBy: '$.title'
+          preview: '$.images.edges[0].node.originalSrc'

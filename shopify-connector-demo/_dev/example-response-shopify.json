@@ -1,0 +1,171 @@
+{
+    "data" : {
+      "products" : {
+        "edges" : [ {
+          "node" : {
+            "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQ0OTQ0NTE4MDIxNjU=",
+            "handle" : "aircontact-45-10-backpack",
+            "title" : "Deuter Aircontact 45 + 10 Backpack",
+            "description" : "Our Aircontact trekking backpack has won the title of “indestructible”. Therefore, we have opted for gentle changes: It is extremely robust, but now it is even neater, more modern and streamlined when trekking. And even more comfortable. Colour: midnight-navy GTIN: 4046051096261 Weight: 2290 g Volume: 45 Liter Dimensions: 78 / 29 / 22 (L x W x D) cm",
+            "updatedAt" : "2020-12-20T08:26:00Z",
+            "images" : {
+              "edges" : [ {
+                "node" : {
+                  "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTQ1MDYxNDU1MTM1MjU=",
+                  "originalSrc" : "https://cdn.shopify.com/s/files/1/0264/3561/6821/products/deuter-aircontact-45-10.jpg?v=1584990547",
+                  "altText" : null
+                }
+              } ]
+            },
+            "priceRange" : {
+              "minVariantPrice" : {
+                "amount" : "209.0",
+                "currencyCode" : "EUR"
+              }
+            }
+          }
+        }, {
+          "node" : {
+            "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQ0OTQ0NTQ0NTYzNzM=",
+            "handle" : "mammut-seon-messenger-bag",
+            "title" : "Mammut - Seon Messenger Bag",
+            "description" : "As demonstrated at the Mammut® head office in the Swiss town of Seon, this bag is made for modern working life. The Seon Messenger is a modern 14 litres Roll Top Messenger Bag featuring a fully opening main access to the \"CLIMB\" compartment. Recommended use: Climbing Other material information: 900D Polyester WP; 840 Nylon JR Ballistic Carry system: padded carry strap Additional compartments: Laptop sleeve (15\"), 2 side pockets Dimensions (outer): 30 x 14 x 36 cm Volume: 14 l Weight: 730 g Misc: Separate compartment for climbing shoes; Laptops up to 13\" Item No.: 510-2118",
+            "updatedAt" : "2020-12-20T08:26:00Z",
+            "images" : {
+              "edges" : [ {
+                "node" : {
+                  "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTQ1MDYxNjE3NjY0NTM=",
+                  "originalSrc" : "https://cdn.shopify.com/s/files/1/0264/3561/6821/products/mammut-seon-messenger-shoulder-bag.jpg?v=1584990752",
+                  "altText" : null
+                }
+              } ]
+            },
+            "priceRange" : {
+              "minVariantPrice" : {
+                "amount" : "108.0",
+                "currencyCode" : "EUR"
+              }
+            }
+          }
+        }, {
+          "node" : {
+            "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQ0OTQ1MDk0NDEwNzc=",
+            "handle" : "samsonite-neopulse-20-spinner",
+            "title" : "Samsonite NeoPulse 20\" Spinner",
+            "description" : "Airline carry-on with style. Made in Europe out of 100% Makrolon® Polycarbonate, a high-tech material designed for reliability and high-impact resistance. Four, multi-directional dual spinner wheels provide 360 degree, easy-pivot mobility. Rolls upright so there is no weight on your arm or shoulder. The ribbed-shell finish reduces the visibility of scratches caused by challenging trips.",
+            "updatedAt" : "2020-12-20T08:26:28Z",
+            "images" : {
+              "edges" : [ {
+                "node" : {
+                  "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTQ1MDY0MjQwMDg3NTc=",
+                  "originalSrc" : "https://cdn.shopify.com/s/files/1/0264/3561/6821/products/samsonite-neopulse.jpg?v=1584994062",
+                  "altText" : null
+                }
+              } ]
+            },
+            "priceRange" : {
+              "minVariantPrice" : {
+                "amount" : "279.99",
+                "currencyCode" : "EUR"
+              }
+            }
+          }
+        }, {
+          "node" : {
+            "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQ0OTQ1MjA2MTQ5NjU=",
+            "handle" : "nomatic-travelpack",
+            "title" : "Nomatic TRAVELPACK",
+            "description" : "The NOMATIC Travel Pack is the most funded travel bag in Kickstarter history 20+ INNOVATIVE FEATURES 20L TO 30L EXPANSION DURABLE/WATER RESISTANT SUNGLASSES CASE TECH ORGANIZATION TSA-READY LAPTOP SLEEVE",
+            "updatedAt" : "2020-12-20T08:26:35Z",
+            "images" : {
+              "edges" : [ {
+                "node" : {
+                  "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTQ1MDY0NzYxNDI2NDU=",
+                  "originalSrc" : "https://cdn.shopify.com/s/files/1/0264/3561/6821/products/Nomatic_S_TP_Open_1024x1024_fcbb1198-3f9d-4a33-b383-645e0d5c5c7f.jpg?v=1584994394",
+                  "altText" : null
+                }
+              } ]
+            },
+            "priceRange" : {
+              "minVariantPrice" : {
+                "amount" : "245.95",
+                "currencyCode" : "EUR"
+              }
+            }
+          }
+        }, {
+          "node" : {
+            "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQ0OTQ1MjY2MTE1MDk=",
+            "handle" : "especial-medio-cycling-backpack",
+            "title" : "Especial Medio Cycling Backpack",
+            "description" : "The new Medio Backpack has an improved fit and greater visibility for safe, comfortable riding. A super-durable, water-resistant, expandable pack, the Medio is designed for serious cyclists. The internal waterproof drop liner keeps water out, and a backbender flexible cooling panel feels good on your back and keeps you cool.",
+            "updatedAt" : "2020-12-20T08:26:38Z",
+            "images" : {
+              "edges" : [ {
+                "node" : {
+                  "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTQ1MDY0OTMzNDU4NDU=",
+                  "originalSrc" : "https://cdn.shopify.com/s/files/1/0264/3561/6821/products/especial-medio-cycling-laptop-backpack-black_435-3-2001_front-Timbuk2-0800000000000008-1989_720x.progressive_838a1043-a62c-4baf-b268-9db79963fced.jpg?v=1584994603",
+                  "altText" : null
+                }
+              } ]
+            },
+            "priceRange" : {
+              "minVariantPrice" : {
+                "amount" : "179.0",
+                "currencyCode" : "EUR"
+              }
+            }
+          }
+        }, {
+          "node" : {
+            "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQ0OTQ1MzcyOTM4Nzc=",
+            "handle" : "topo-designs-rover-pack-classic",
+            "title" : "TOPO Designs - ROVER PACK - CLASSIC",
+            "description" : "With its timeless styling and durable build, the Rover Pack Classic is our most iconic daypack silhouette. Designed for versatility in town or at the trailhead, this durable nylon pack will hold up in any environment and stand out in all of them. Spacious main compartment Internal laptop sleeve Large zippered front pocket",
+            "updatedAt" : "2020-12-20T08:26:44Z",
+            "images" : {
+              "edges" : [ {
+                "node" : {
+                  "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTQ1MDY1MTY5Mzg4MDU=",
+                  "originalSrc" : "https://cdn.shopify.com/s/files/1/0264/3561/6821/products/Rover-Pack-Classic-Navy-Red-1_2x_94715c34-69cc-42d9-9e2f-43657c8c0a47.jpg?v=1584994948",
+                  "altText" : null
+                }
+              } ]
+            },
+            "priceRange" : {
+              "minVariantPrice" : {
+                "amount" : "99.99",
+                "currencyCode" : "EUR"
+              }
+            }
+          }
+        }, {
+          "node" : {
+            "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQ0OTQ1NDU2NDk3MTc=",
+            "handle" : "fjallraven-passport-wallet",
+            "title" : "Fjallraven Passport Wallet",
+            "description" : "Practical and durable travel wallet in durable G-1000 HeavyDuty Eco with G-1000 Eco inside. Slim format for travel with room for a passport (max. measurements 125 x 90 mm) and open pockets for banknotes, credit cards etc. A small zippered pocket for coins. Leather details. Material: G-1000® HeavyDuty Eco: 65% polyester, 35% cotton G-1000® Eco: 65% polyester, 35% cottonHeight: 16 cmWidth: 11 cmDepth: 2 cmWeight: 140 g",
+            "updatedAt" : "2020-12-20T08:26:49Z",
+            "images" : {
+              "edges" : [ {
+                "node" : {
+                  "id" : "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTQ1MDY1MzM1ODQ5NDk=",
+                  "originalSrc" : "https://cdn.shopify.com/s/files/1/0264/3561/6821/products/passport_wallet_24220-230_a_main_fjr.jpg?v=1584995274",
+                  "altText" : null
+                }
+              } ]
+            },
+            "priceRange" : {
+              "minVariantPrice" : {
+                "amount" : "49.95",
+                "currencyCode" : "EUR"
+              }
+            }
+          }
+        } ],
+        "pageInfo" : {
+          "hasNextPage" : false
+        }
+      }
+    }
+  }

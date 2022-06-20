@@ -1,0 +1,10 @@
+class: info.magnolia.rest.ui.periscope.RestClientResultSupplierDefinition
+restClient: shopify
+restCall: periscope
+searchResultExpression:
+  title: $.data.products.edges[*].node.title
+  content: $.data.products.edges[*].node.description
+  date: $.data.products.edges[*].node.updatedAt
+  # url: $.data.products.edges[*].node.onlineStoreUrl
+  url: $.data.products.edges[*].node.images.edges[*].node.originalSrc
+enabled: true

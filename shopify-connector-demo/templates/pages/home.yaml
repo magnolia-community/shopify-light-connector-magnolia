@@ -1,0 +1,22 @@
+# class: info.magnolia.module.site.templates.PageTemplateDefinition
+# renderType: site
+# type: home
+renderType: freemarker
+
+title: Shopify Home
+templateScript: /shopify-connector-demo/templates/pages/home.ftl
+areas:
+  main:
+    availableComponents:
+
+      product:
+        id: shopify-connector-demo:components/product
+      tourProducts:
+        id: shopify-connector-demo:components/tourProducts
+
+  footer:
+    availableComponents:
+      product:
+        id: shopify-connector-demo:components/product
+      tourProducts:
+        id: shopify-connector-demo:components/tourProducts

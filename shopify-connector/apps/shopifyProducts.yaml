@@ -1,0 +1,91 @@
+appClass: info.magnolia.ui.framework.app.BaseApp
+icon: icon-content-app
+class: info.magnolia.ui.contentapp.configuration.ContentAppDescriptor
+label: Shopify Products
+
+subApps:
+  browser:
+    label: Shopify
+    class: info.magnolia.ui.contentapp.configuration.BrowserDescriptor
+    
+    datasource:
+      $type: jsonDatasource
+      restClient: shopify
+      restCall: products
+      jsonPathExpressions:
+        itemId: '$.handle'
+        items: '$.data.products.edges[*].node'
+        describeBy: '$.title'
+        preview: '$.images.edges[0].node.originalSrc'
+
+    workbench:
+      contentViews:
+        - name: list
+          $type: listView
+          columns:
+            - name: title
+              label: Title
+            - name: id
+              label: ID
+            - name: updatedAt
+              label: Last Modified
+    actionbar:
+      # label: Product
+      sections:
+        article:
+          label: Product
+          groups:
+            view:
+              items:
+                - name: viewProduct
+          availability:
+            root: false
+    actions:
+      viewProduct:
+        $type: openDetailSubappAction
+        label: View
+        icon: icon-view
+        appName: shopifyProducts
+        subAppName: view
+        viewType: edit
+  view:
+    label: View Shopify Product
+    class: info.magnolia.ui.contentapp.detail.DetailDescriptor
+    
+    datasource:
+      $type: jsonDatasource
+      restClient: shopify
+      restCall: product
+      jsonPathExpressions:
+        properties:
+          id: $.data.productByHandle.id
+          title: $.data.productByHandle.title
+          description: $.data.productByHandle.description
+          updatedAt: $.data.productByHandle.updatedAt
+    
+    actions:
+      cancel:
+        label: Cancel
+        $type: closeAction
+    itemProvider:
+      $type: jsonProvider
+    form:
+      properties:
+        id:
+          label: ID
+          $type: textField
+          readOnly: true
+        title:
+          label: Title
+          $type: textField
+          readOnly: true
+        description:
+          label: Description
+          $type: textField
+          rows: 5
+          readOnly: true
+        updatedAt:
+          label: Last Modified
+          $type: dateField
+          readOnly: true
+
