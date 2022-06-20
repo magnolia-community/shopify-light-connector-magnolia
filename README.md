@@ -14,6 +14,7 @@ Tested on Magnolia 6.2.19 (Expected to work on all 6.2 versions)
 ![Usage in pages aapp](/shopify-connector-demo/_dev/README-shopify-connector-1.png "Pages app")
 
 Want to quickly try it out? 
+- On a DXCore Instance, (For example use `mgnl jumpstart` and choose `magnolia-dx-core-webapp`)
 - Just drop both directories in your `light-modules` directory.
 - Log out and log in again to get the new apps.
 - Open the `Shopify Products` app to browse the remote products.
